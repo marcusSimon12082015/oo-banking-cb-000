@@ -1,5 +1,7 @@
 class Transfer
   # your code here
-  def initialize(account_source, account_destination, amount)
+  attr_accessor :sender
+  def initialize(sender, account_destination, amount)
+    @sender = sender
   end
 end
